@@ -1,0 +1,82 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+nav{
+width: 100%;
+position: absolute;
+top: 0px;
+left:0px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 20px 60px;
+z-index: 999;
+}
+
+.marketing{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(home\ back\ ground.jpg);
+    background-repeat: no-repeat;
+    background-size: 208vh;
+    position: relative;
+}
+
+.links{
+width: 100%;
+list-style: none;
+display: flex;
+justify-content: flex-end;
+margin: 50px;
+}
+.links li{
+margin: 20px;
+}
+
+.links a{
+font-size: 16px;
+text-decoration: none;
+color: #000;
+transition: color 0.3s ease;
+}
+
+.links a:hover{
+color: #7f00ff;
+}
+
+.marketing-content{
+text-align: center;
+}
+.marketing-content h1{
+color: #000;
+font-size: 65px;
+margin: 20px;
+}
+
+.marketing-content p{
+    color: #000;
+    font-size: 17px;
+    margin: 20px;
+}
+
+.marketing-content .button{
+display: inline-block;
+padding: 12px 24px;
+background-color: #9933ff;
+font-size: 16px;
+color: #fff;
+text-decoration: none;
+border-radius: 4px;
+transition: backgroundcolor 0.3s ease;
+}
+
+.marketing-content .button:hover{
+    background-color: #7f00ff;
+}
